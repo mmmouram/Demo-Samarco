@@ -1,0 +1,30 @@
+.card-correia {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 280px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card-correia:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-correia.alerta {
+  border: 2px solid #e74c3c;
+}
+
+.badge-alerta {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+}

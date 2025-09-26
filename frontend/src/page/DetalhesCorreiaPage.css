@@ -1,0 +1,15 @@
+.detalhes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.detalhes-container h1 {
+  margin-bottom: 20px;
+}
+
+.detalhes-container p {
+  font-size: 18px;
+  margin: 10px 0;
+}
